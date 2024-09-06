@@ -2,6 +2,7 @@ package buddy.testing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.Assert;
 
 @SpringBootTest
 class ExampleApplicationTests {
@@ -15,6 +16,7 @@ class ExampleApplicationTests {
 
 	@Test
 	void anotherCustomTest(){
+		Assert.hasText("","");
 		System.out.println("Another Custom Test");
 	}
 
