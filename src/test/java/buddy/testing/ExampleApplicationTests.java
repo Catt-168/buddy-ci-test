@@ -16,8 +16,8 @@ class ExampleApplicationTests {
 
 	@Test
 	void anotherCustomTest(){
-//		Assert.hasText("","");
-		System.out.println("Another Custom Test");
+	Assert.hasText("","");
+//		System.out.println("Another Custom Test");
 	}
 
 }
